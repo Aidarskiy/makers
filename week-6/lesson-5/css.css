@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    /* background-color: blueviolet; */
+}
+
+form input {
+    margin: 5px;
+    background-color: rgb(16, 199, 190);
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+}
+
+form button {
+    margin: 5px;
+    border: none;
+    background-color: gold;
+    cursor: pointer;
+    border: 2px solid rgb(226, 86, 43);
+}

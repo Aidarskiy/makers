@@ -1,0 +1,148 @@
+
+/* display block, inline, inline-block */
+
+/* p {
+    background-color: red;
+    display: inline-block;
+    width: 300px;
+}
+
+span {
+    background-color: aqua;
+    display: block;
+    width: 300px;
+} */
+/* ========================================================================== */
+
+
+
+/* Псевдоклассы */
+span:first-child {
+    color: blue;
+
+}
+
+span:last-child {
+    color: coral;
+}
+
+span:nth-child(2) {
+    color: cornflowerblue;
+}
+
+input:focus {
+    outline: none;
+}
+
+/* Посещённые ссылки */
+a:visited {
+    color: pink;
+}
+
+/* Непосещённые ссылки */
+
+a:link {
+    color: orange;
+}
+
+a{
+    transition: all 1s;
+}
+
+/* При наведении */
+
+a:hover {
+    background-color: yellow;
+    font-size: 32px;
+}
+
+
+/* active links */
+
+a:active {
+    color: black;   
+}
+
+/* К строчным тегам не рабоатает */
+span::first-letter {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+p::first-letter {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+p::first-line {
+    background: lawngreen;
+    font-style: italic;
+}
+
+
+input::placeholder {
+    color: yellow;
+    font-size: 18px;
+}
+
+
+/*ставить что то перед и после элементов */
+#span-1::before {
+    content: 'Apple ';
+}
+
+#span-1::after {
+    content: ' M1';
+    font-weight: 700;
+}
+
+
+.main-block {
+    width: 100%;
+    background: lightgray;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    background: darkblue;
+
+
+    /* position: sticky; */
+    position: fixed;
+    top: 0;
+    /* position: fixed;
+    z-index: -1; */
+    z-index: 2;
+}
+
+.first-div {
+    padding-top: 100px;
+}
+
+.content-block {
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+.footer {
+    width: 100%;
+    height: 150px;
+    background: darkgreen;
+}
+
+
+.box {
+    position: absolute;
+    /* top: 50%;
+    right: 40%; */
+    height: 200px;
+    width: 200px;
+    background: black;
+    bottom: 10px;
+    left: 10px;
+    z-index: 1;
+}
+
+

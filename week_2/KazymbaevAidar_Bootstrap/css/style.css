@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1920px;
+}
+
+.container-fluid {
+    padding: 0 200px;
+}
+
+ul a {
+    color: #1E1E1E;
+    font-size: 14px;
+}
+
+.btn {
+    height: 48px;
+    width: 212px;
+}
+
+.square1 {
+    width: 51px;
+    height: 43px;
+}
+
+.square2 {
+    width: 50px;
+    height: 44px;
+}
+
+.square3 {
+    width: 41px;
+    height: 45px;
+}
+
+.square4 {
+    width: 56px;
+    height: 35px;
+}
+
+.square5 {
+    width: 56px;
+    height: 45px;
+}
+
+.square6 {
+    width: 51px;
+    height: 48px;
+}
+
+.row {
+    padding: 0 122px 0 225px;
+}
+
+.col img {
+    width: 212px;
+    height: 211px;
+}
+
+.card {
+    border: none;
+}
